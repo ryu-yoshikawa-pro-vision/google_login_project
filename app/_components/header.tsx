@@ -38,13 +38,7 @@ const Header = () => {
             </li>
           </>
         ) : (
-          <li>
-            <Link href="/login">
-              <button className="rounded-lg bg-blue-500 px-4 py-[7px] text-white hover:bg-gray-600">
-                ログイン
-              </button>
-            </Link>
-          </li>
+          ""
         )}
       </ul>
     </header>
